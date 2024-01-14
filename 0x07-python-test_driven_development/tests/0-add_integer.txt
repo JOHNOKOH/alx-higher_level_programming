@@ -1,0 +1,16 @@
+Test cases for 0-add_integer module
+===================================
+
+This module defines an integer or float addition and returns their sum.
+
+Usage
+=====
+
+``add_integer(...)``` returns the addition of its two arguments. For numbers,
+that value is equivalent to using the ``+`` operator.
+
+::
+
+    >>> add_integer = __import__('0-add_integer').add_integer
+    >>> add_integer(3, 4)
+    7
