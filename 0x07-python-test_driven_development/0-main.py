@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+=======
+
+>>>>>>> ccb1e7d633d6fd472e2effd67893e19ad6446e4b
 add_integer = __import__('0-add_integer').add_integer
 
 print(add_integer(1, 2))

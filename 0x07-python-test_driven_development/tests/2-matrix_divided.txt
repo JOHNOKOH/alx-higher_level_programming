@@ -20,6 +20,7 @@ Usage
     [[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]]
 
 Take note that quotients are rounded to a maximum of two decimal places.
+<<<<<<< HEAD
 
 ::
 
@@ -161,3 +162,5 @@ is raised.
     >>> print(matrix_divided(matrix, 0))
     Traceback (most recent call last):
     ZeroDivisionError: division by zero
+=======
+>>>>>>> ccb1e7d633d6fd472e2effd67893e19ad6446e4b
