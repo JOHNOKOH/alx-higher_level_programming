@@ -1,11 +1,2 @@
 #!/usr/bin/node
-
-const { argv } = process;
-
-const firstarg = parseInt(argv[2]);
-
-if (firstarg) {
-	  console.log(`My number: ${firstarg}`);
-} else {
-	  console.log('Not a number');
-}
+console.log(parseInt(process.argv[2]) ? `My number: ${parseInt(process.argv[2])}` : 'Not a number');
